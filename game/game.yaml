@@ -25,7 +25,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: myservice
+  name: myservicei
+  namespace: game
   labels:
     app: servicelabel
 spec:
